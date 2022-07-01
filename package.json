@@ -1,0 +1,23 @@
+{
+  "name": "weblang",
+  "version": "1.0.0",
+  "description": "Completely understand the web language",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qingkooo/WebLang.git"
+  },
+  "keywords": [],
+  "author": "qingkooo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qingkooo/WebLang/issues"
+  },
+  "homepage": "https://github.com/qingkooo/WebLang#readme",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "js": "serve ./javascript/stdlib/",
+    "html": "serve ./html/",
+    "css": "serve ./css/"
+  }
+}
