@@ -4,7 +4,7 @@ export function demo(...desc) {
     if (typeof cb !== "function") return;
     for (let i = 0; i < desc.length; i++) {
       if (i === 0) {
-        line(desc[i] || "Demo", ["#", "#"]);
+        line(desc[i] || "Demo");
         continue;
       }
       log(`- ${desc[i] || ""}`);
@@ -47,7 +47,7 @@ export function line(
 ) {
   const arr = [];
   arr.push(delimiter[0].repeat(3));
-  arr.push(` ${message} `);
+  arr.push(message);
   arr.push(delimiter[1].repeat(3));
   console.log("%c" + arr.join(""), style);
 }
