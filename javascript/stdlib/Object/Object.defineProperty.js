@@ -14,6 +14,7 @@ import { demo, log, dir, line } from "../util.js";
   - configurable:可配置属性,默认值为true
       - 该属性无法删除。
       - 一旦设置为false，无法再次修改。
+- 参考：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Enumerability_and_ownership_of_properties
 */
 demo(`实验：descriptor的默认值`)(() => {
   let o = { name: "o" };
