@@ -42,10 +42,16 @@ demo(`实验：Object(any)和new Object(any)的行为一致`)(() => {
 });
 demo(
   `实验：定义key顺序和最终实例的属性顺序`,
-  `按字符串的升序排列`
+  `先数字（可转换的话）再字符串`,
+  `数字按升序排列`,
+  `字符串按定义时的顺序排列`
 )(() => {
   let o1 = { x: "x", name: "o", age: 18, 1: 1 };
   let o2 = { 99: 1, 43: 1, 0: 1, 6: 1, 1: 1 }; // array like
   log(`o1`, o1);
   log(`o2`, o2);
+});
+demo(`实验：对象的初始属性和属性描述符集`)(() => {
+  let o = {};
+  log(`没有属性`, Object.getOwnPropertyDescriptors(o));
 });

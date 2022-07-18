@@ -9,14 +9,18 @@ new Object(Any);
 ## Prototype properties/methods
 
 - Object.prototype.constructor 构造函数属性
-
 - Object.prototype.hasOwnProperty(prop) 判断实例的自身属性名中是否有 prop 键名。(支持 Symbol 和 String 类型属性)
 - Object.prototype.isPrototypeOf(obj) 判断实例是否在实参 obj 的原型链上。
 - Object.prototype.propertyIsEnumerable(prop) 该实例的 prop 属性是否可枚举(即 属性描述符的 descriptor.enumerable 的值)
-
-- Object.prototype.toLocaleString() [弃用]
 - Object.prototype.toString() 用字符串表示对象类型，形式为[object object]
 - Object.prototype.valueOf() 查询实例的原始值
+- Object.prototype.toLocaleString() [弃用]
+  Those Objects overriding the method:
+  - Array: Array.prototype.toLocaleString()
+  - Number: Number.prototype.toLocaleString()
+  - Date: Date.prototype.toLocaleString()
+  - TypedArray: TypedArray.prototype.toLocaleString()
+  - BigInt: BigInt.prototype.toLocaleString()
 
 ## Static properties/methods
 
