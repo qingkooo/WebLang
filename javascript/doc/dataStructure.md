@@ -17,15 +17,16 @@ Descriptor 属性描述符
 
 Descriptors 属性描述符集
 
-```json
+```jsonc
 {
-  <String>:<Descriptor>,...
+  <String>:<Descriptor>, // key is propertyName
+  ...
 }
 ```
 
 Entries 条目
 
-```json
+```jsonc
 [
   [key,value],...
 ]
