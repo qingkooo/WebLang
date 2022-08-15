@@ -12,7 +12,10 @@ function typeis(obj) {
   return str.substring(str.indexOf(" ") + 1, str.length - 1);
 }
 
-demo(`场景：typeis`)(() => {
+demo(
+  `场景：精准的类型判定`,
+  `仅支持内置类型，自定义的类型判断为object`
+)(() => {
   let object = {};
   let array = [];
   function fn() {}
@@ -27,6 +30,7 @@ demo(`场景：typeis`)(() => {
   let map = new Map();
   let math = Math; // property
   let error = new Error();
+  class CustomClass {} // 使用class来自定义类型
 
   log(`string:`, typeis(string));
   log(`boolean:`, typeis(boolean));
@@ -43,4 +47,16 @@ demo(`场景：typeis`)(() => {
   log(`map:`, typeis(map));
   log(`math:`, typeis(math));
   log(`error:`, typeis(error));
+
+  log(`class自定义的类型：`, typeis(new CustomClass())); // "[object Object]"
+});
+
+demo(`问题：解决上面class自定义类型的问题`)(() => {
+  // 知识：Symbol.toStringTag
+  class CustomClass {
+    get [Symbol.toStringTag]() {
+      return "YourSelfCustomClass";
+    }
+  }
+  log(`class自定义的类型：`, typeis(new CustomClass())); // "YourSelfCustomClass"
 });

@@ -1,0 +1,305 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="791px" height="531px" viewBox="-0.5 -0.5 791 531" content="&lt;mxfile&gt;&lt;diagram id=&quot;6hGFLwfOUW9BJ-s0fimq&quot; name=&quot;Page-1&quot;&gt;7VlNc5swEP01OibDR8BwBEzSzqTTTt1OzgrIRlMZUSHHdn59VwIb48QOrjVODvHBAw/taiX03q4EcpP56k7gqvjGc8KQY+Ur5I6R4zjBCP4VsG6AwLUaYCZo3kB2B0zoM2nBTbMFzUndayg5Z5JWfTDjZUky2cOwEHzZbzblrN9rhWfkBTDJMHuJPtBcFu0onFGHfyF0Vmx6tv2weTLHm8btSOoC53y5A7kpchPBuWyu5quEMDV3m3lp7G4PPN0GJkgpBxkEjcUTZot2cMjxGdjGBTjzZ+pqg9QVLlXMct1OhP93oQKNp7yUV7V+TRE0sJ1q1T3cekk9FI1ROELpCEUJinyU3qA4QLGDUh+FtyjyUBqgCC62QUDkTa/9SAB+GV5OnzbQRApazq4rwSWX64pc0zInq+/THfud1kMcMFzLr30nj+KVsE50mxVYRPIMj0M6qQkWWfH/QcKq7cxNjFo7jNRCPObhdL/14rHW2MnT9/aonN7KdyRZaZLIOQPAVuyQgv8hCWdcAFLykihmUMb2IFjPmQrRHXvd3S9eAXAFbHXjZUElmQCuulqCgALGn4iYMq0UBc1zUgIm+AIWpCKyssKMzgAdMzJVgUF7SUGxohaWqoO44II+A1nxJuiXetFKiLInqx2o1Y87wudEijU0WfVFed2/XXbCaIctVuyKot+CuBXj2dZzp1dw0UrW6/K1kdELyNeipBnkMS1eFgpsLVU2igKFhLESMhC4wEOxe6Z4HV7pU8HnCShGogI5S3OUh053DNLkaOjQ6Q9Oy+H9tsZbw7dCvsBAunksuZgD654PvooTJQM5rmXZ4zjZ0w2NexaZfjTxULzZCXKqf2ZExemLyoVVxb6Yqmg5SVFgafGA6sjTtZCrrlV1BEhiuhaC+7lJHih/92rhGPb5U79Wg04rnE8kFqZ9pmVu0qMgFcFmJ5Pf8yURCa6JWbe/q8q8W9i0ZWeNf1ClWDH6jrlkuOln2XkgQ7h7KcL1hmUIx/IMZAjnghkiRFGMQl1nxhGKRsYzRD/Qw7LE1No43pUhAVQ9vbk/PMpvRrMTVOmTZQNZ5nhDCzHHRCHmXvR0KoAd3Y1ml69OqowfQWVsoY4tDVKlVuVM/UCl0eMZUuanufykz7CzETccyh7bBHtuLsseD8XNkW6sCGR608InvZM9E+tcT4yJ81yBlybJ8pFIcOgg4tDe//CRholsZIc9Pt1YQ/nkmuCTd1E+xTYKU5WNAksVfUb4xEg5k8O/BHzucN4zefj72WPgDic8fYMDt903R/1s58Otm/4D&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="0" y="10" width="190" height="160" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 182px; height: 1px; padding-top: 0px; margin-left: 5px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 170px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <h1>
+                                    <span style="font-size: 12px">
+                                        字符串查询
+                                    </span>
+                                </h1>
+                                <div>
+                                    String.prototype.indexOf
+                                </div>
+                                <div>
+                                    String.prototype.lastIndexOf
+                                    <br/>
+                                </div>
+                                <div>
+                                    String.prototype.charAt
+                                    <br/>
+                                </div>
+                                <div>
+                                    <div>
+                                        String.prototype.search
+                                    </div>
+                                    <div>
+                                        String.prototype.match
+                                        <br/>
+                                    </div>
+                                    <div>
+                                        String.prototype.matchAll
+                                    </div>
+                                </div>
+                                <div>
+                                    String.prototype.substring
+                                </div>
+                                <div>
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="5" y="12" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    字符串查询String.prototype.indexOf...
+                </text>
+            </switch>
+        </g>
+        <rect x="10" y="210" width="190" height="160" fill="#0050ef" stroke="#001dbc" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 182px; height: 1px; padding-top: 200px; margin-left: 15px;">
+                        <div data-drawio-colors="color: #ffffff; " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 170px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <h1>
+                                    <span style="font-size: 12px">
+                                        unicode码表相关
+                                    </span>
+                                </h1>
+                                <div>
+                                    <div>
+                                        String.fromCharCode
+                                    </div>
+                                    <div>
+                                        String.prototype.charCodeAt
+                                    </div>
+                                    <div>
+                                        <br/>
+                                    </div>
+                                    <div>
+                                        String.fromCodePoint
+                                    </div>
+                                    <div>
+                                        String.CodePointAt
+                                    </div>
+                                </div>
+                                <div>
+                                    <br/>
+                                </div>
+                                <div>
+                                    String.prototype.normalize
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="15" y="212" fill="#ffffff" font-family="Helvetica" font-size="12px">
+                    unicode码表相关...
+                </text>
+            </switch>
+        </g>
+        <rect x="310" y="35" width="190" height="205" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 182px; height: 1px; padding-top: 25px; margin-left: 315px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 215px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <h1>
+                                    <span style="font-size: 12px">
+                                        简单操作
+                                    </span>
+                                </h1>
+                                <div>
+                                    String.prototype.trim
+                                    <br/>
+                                </div>
+                                <div>
+                                    String.prototype.trimLeft
+                                    <br/>
+                                </div>
+                                <div>
+                                    String.prototype.trimRight
+                                    <br/>
+                                </div>
+                                <div>
+                                    String.prototype.padStart
+                                    <br/>
+                                </div>
+                                <div>
+                                    String.prototype.padEnd
+                                    <br/>
+                                </div>
+                                <div>
+                                    String.prototype.repeat
+                                    <br/>
+                                </div>
+                                <div>
+                                    String.prototype.toLowerCase
+                                    <br/>
+                                </div>
+                                <div>
+                                    String.prototype.toUpperCase
+                                    <br/>
+                                </div>
+                                <div>
+                                    String.prototype.concat
+                                    <br/>
+                                </div>
+                                <div>
+                                    <div>
+                                        String.prototype.split
+                                    </div>
+                                </div>
+                                <div>
+                                    <br/>
+                                </div>
+                                <div>
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="315" y="37" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    简单操作String.prototype.trim...
+                </text>
+            </switch>
+        </g>
+        <rect x="310" y="250" width="190" height="120" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 182px; height: 1px; padding-top: 240px; margin-left: 315px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 130px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <h1>
+                                    <span style="font-size: 12px">
+                                        高级操作
+                                    </span>
+                                </h1>
+                                <div>
+                                    <span>
+                                        String.prototype.replace
+                                    </span>
+                                    <br/>
+                                </div>
+                                <div>
+                                    String.prototype.replaceAll
+                                </div>
+                                <div>
+                                    String.prototype.slice
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="315" y="252" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    高级操作String.prototype.replace...
+                </text>
+            </switch>
+        </g>
+        <rect x="0" y="390" width="190" height="110" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 182px; height: 1px; padding-top: 380px; margin-left: 5px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 120px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <h1>
+                                    <span style="font-size: 12px">
+                                        判断
+                                    </span>
+                                </h1>
+                                <div>
+                                    String.prototype.includes
+                                    <br/>
+                                </div>
+                                <div>
+                                    String.prototype.startsWith
+                                    <br/>
+                                </div>
+                                <div>
+                                    String.prototype.endWith
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="5" y="392" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    判断String.prototype.includes...
+                </text>
+            </switch>
+        </g>
+        <rect x="309" y="400" width="190" height="130" fill="#0050ef" stroke="#001dbc" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 182px; height: 1px; padding-top: 390px; margin-left: 314px;">
+                        <div data-drawio-colors="color: #ffffff; " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 140px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <h1>
+                                    <span style="font-size: 12px">
+                                        其他
+                                    </span>
+                                </h1>
+                                <div>
+                                    String.prototype.toString
+                                    <br/>
+                                </div>
+                                <div>
+                                    String.prototype.valueOf
+                                    <br/>
+                                </div>
+                                <div>
+                                    String.raw
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="314" y="402" fill="#ffffff" font-family="Helvetica" font-size="12px">
+                    其他String.prototype.toString...
+                </text>
+            </switch>
+        </g>
+        <rect x="600" y="35" width="190" height="95" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 182px; height: 1px; padding-top: 25px; margin-left: 605px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 105px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <h1>
+                                    <span style="font-size: 12px">
+                                        属性
+                                    </span>
+                                </h1>
+                                <div>
+                                    String.length
+                                </div>
+                                <div>
+                                    <br/>
+                                </div>
+                                <div>
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="605" y="37" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    属性String.length...
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>

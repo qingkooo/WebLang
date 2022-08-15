@@ -16,7 +16,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "js:stdlib": "serve ./javascript/stdlib/",
+    "start": "serve .",
+    "js:stdlib": "serve .",
     "html": "serve ./html/",
     "css": "serve ./css/"
   }

@@ -33,11 +33,7 @@ export function err(...message) {
 }
 function print(method, message) {
   if (!method in console) return;
-  if (typeis(message) != "array") message = [message];
-  if (message.length === 0) return;
-  message.forEach((item) => {
-    console[method](item);
-  });
+  console[method](...message);
 }
 
 export function line(
@@ -54,8 +50,10 @@ export function line(
 
 export function typeis(v) {
   let type = Object.prototype.toString.call(v);
-  return type
-    .substring(1, type.length - 1)
-    .split(" ")[1]
-    .toLowerCase();
+  // return type
+  //   .substring(1, type.length - 1)
+  //   .split(" ")[1]
+  //   .toLowerCase();
+  return String.prototype.slice.call(type, 8, -1);
+  // type.slice(8, -1);
 }
